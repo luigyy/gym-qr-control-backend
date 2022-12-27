@@ -1,0 +1,7 @@
+{
+  "remoting": {
+    "errorHandler": {
+      "disableStackTrace": true
+    }
+}
+

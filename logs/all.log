@@ -1,0 +1,388 @@
+2021-05-11 18:44:06:446 [32minfo[39m: [32mSERVER[39m
+2021-05-11 18:44:06:446 [32minfo[39m: [32mDatabase[39m
+2021-05-11 18:59:11:5911 [32minfo[39m: [32mSERVER[39m
+2021-05-11 18:59:11:5911 [32minfo[39m: [32msuccessfully connected to database[39m
+2021-05-11 19:01:24 :124 [32minfo[39m: [32mSERVER[39m
+2021-05-11 19:01:24 :124 [32minfo[39m: [32msuccessfully connected to database[39m
+2021-05-11 19:02:01 [32minfo[39m: [32mSERVER[39m
+2021-05-11 19:02:01 [32minfo[39m: [32msuccessfully connected to database[39m
+2021-05-11 19:05:22 [32minfo[39m: [32mSERVER[39m
+2021-05-11 19:05:22 [32minfo[39m: [32msuccessfully connected to database[39m
+2021-05-11 19:07:41 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:07:41 [32minfo[39m: [32msuccessfully connected to database[39m
+2021-05-11 19:09:01 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:09:01 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:09:37 [31merror[39m: [31m404handler[39m
+2021-05-11 19:14:19 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:14:20 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:17:16 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:17:16 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:18:05 [31merror[39m: [31mErrorHandler[39m
+2021-05-11 19:19:33 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:19:33 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:22:04 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:22:04 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:22:32 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:22:32 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:22:43 [32minfo[39m: [32mMongoose default connection disconnected[39m
+2021-05-11 19:24:02 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:24:02 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:24:36 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:24:36 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:26:42 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:26:43 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:26:48 [37mdebug[39m: [37mbefore[39m
+2021-05-11 19:32:52 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:32:52 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:33:02 [37mdebug[39m: [37mbefore[39m
+2021-05-11 19:33:04 [37mdebug[39m: [37mbefore[39m
+2021-05-11 19:33:53 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:33:53 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:33:58 [37mdebug[39m: [37m[37mdebug[37m[39m
+2021-05-11 19:34:55 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:34:55 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:34:59 [37mdebug[39m: [37mbefore[39m
+2021-05-11 19:35:33 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:35:33 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:42:08 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:42:08 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:43:22 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:43:22 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:44:10 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:44:10 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:44:45 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:44:45 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:45:18 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:45:18 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:47:31 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:47:31 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:55:41 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:55:41 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:56:28 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:56:28 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:57:25 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:57:25 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 19:59:33 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 19:59:33 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 20:00:00 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 20:00:01 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 20:07:03 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 20:07:03 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 20:08:06 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 20:08:06 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 21:58:23 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 21:58:23 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 22:01:42 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 22:01:42 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 22:02:23 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 22:02:23 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 22:02:44 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 22:02:44 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 22:11:07 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 22:11:07 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 22:13:44 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 22:13:44 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 22:15:57 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 22:15:57 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 22:16:07 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2021-05-11 22:16:34 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 22:16:34 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 22:18:38 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 22:18:38 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 22:27:47 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 22:27:47 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 22:28:38 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 22:28:38 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 22:29:17 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 22:29:17 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 22:29:42 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 22:29:42 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 22:37:46 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 22:37:46 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-11 22:38:48 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-11 22:38:48 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-14 14:09:57 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-14 14:09:57 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-14 14:14:28 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-14 14:14:28 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-15 18:50:12 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-15 18:50:12 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-15 18:51:17 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-15 18:51:17 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-15 18:51:51 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-15 18:51:51 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-15 18:52:52 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-15 18:52:52 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-15 18:53:41 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-15 18:53:41 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-15 22:04:33 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-15 22:04:33 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-15 22:17:13 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-15 22:17:13 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-15 22:19:45 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-15 22:19:46 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-15 22:19:53 [35mhttp[39m: [35mPOST /register 401 79 - 78.681 ms[39m
+[35m[39m
+2021-05-15 22:20:42 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2021-05-16 18:53:20 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-16 18:53:20 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-16 18:53:57 [35mhttp[39m: [35mPOST /login 401 178 - 10.358 ms[39m
+[35m[39m
+2021-05-16 18:54:56 [35mhttp[39m: [35mPOST /login 200 359 - 189.552 ms[39m
+[35m[39m
+2021-05-17 21:27:05 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-17 21:27:05 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-17 21:28:31 [35mhttp[39m: [35mGET /admin/usersData 401 82 - 9.242 ms[39m
+[35m[39m
+2021-05-17 21:30:10 [35mhttp[39m: [35mPOST /login 200 359 - 300.699 ms[39m
+[35m[39m
+2021-05-17 21:32:30 [35mhttp[39m: [35mGET /admin/usersData 401 82 - 1.025 ms[39m
+[35m[39m
+2021-05-17 21:33:04 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2021-05-17 21:36:00 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-17 21:36:00 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-17 21:42:41 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-17 21:42:41 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-17 21:44:25 [35mhttp[39m: [35mGET /admin/usersData 401 82 - 11.973 ms[39m
+[35m[39m
+2021-05-17 21:45:00 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-17 21:45:00 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-17 21:45:29 [35mhttp[39m: [35mGET /admin/usersData 401 82 - 16.838 ms[39m
+[35m[39m
+2021-05-17 21:48:39 [35mhttp[39m: [35mPOST /login 401 178 - 3.347 ms[39m
+[35m[39m
+2021-05-17 21:48:56 [35mhttp[39m: [35mGET /admin/usersData 401 85 - 3.202 ms[39m
+[35m[39m
+2021-05-17 21:50:22 [35mhttp[39m: [35mPOST /login 200 359 - 229.811 ms[39m
+[35m[39m
+2021-05-17 21:51:40 [35mhttp[39m: [35mPOST /admin/usersData 401 85 - 1.292 ms[39m
+[35m[39m
+2021-05-17 21:52:48 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-17 21:52:48 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-19 22:02:55 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-19 22:02:55 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-19 22:03:15 [35mhttp[39m: [35mGET / 404 75 - 9.220 ms[39m
+[35m[39m
+2021-05-19 22:03:21 [35mhttp[39m: [35mGET /login 404 75 - 2.427 ms[39m
+[35m[39m
+2021-05-19 22:03:32 [35mhttp[39m: [35mPOST /login 401 178 - 4.811 ms[39m
+[35m[39m
+2021-05-19 22:06:29 [35mhttp[39m: [35mPOST /login 401 178 - 1.469 ms[39m
+[35m[39m
+2021-05-19 22:07:22 [35mhttp[39m: [35mPOST /login 401 178 - 1.064 ms[39m
+[35m[39m
+2021-05-19 22:07:36 [35mhttp[39m: [35mPOST /login 401 178 - 0.882 ms[39m
+[35m[39m
+2021-05-19 22:08:04 [35mhttp[39m: [35mPOST /login 200 359 - 391.027 ms[39m
+[35m[39m
+2021-05-19 22:16:00 [35mhttp[39m: [35mGET /login 404 75 - 0.690 ms[39m
+[35m[39m
+2021-05-19 22:16:06 [35mhttp[39m: [35mPOST /login 401 178 - 0.764 ms[39m
+[35m[39m
+2021-05-19 22:20:17 [35mhttp[39m: [35mPOST /login 401 178 - 3.672 ms[39m
+[35m[39m
+2021-05-19 22:20:26 [35mhttp[39m: [35mPOST /login 200 359 - 140.720 ms[39m
+[35m[39m
+2021-05-19 22:24:15 [35mhttp[39m: [35mPOST /admin/usersData 401 85 - 80.358 ms[39m
+[35m[39m
+2021-05-19 22:25:52 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-19 22:25:52 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-19 22:26:36 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-19 22:26:37 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-19 22:26:48 [35mhttp[39m: [35mPOST /admin/usersData 401 85 - 101.133 ms[39m
+[35m[39m
+2021-05-19 22:27:41 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-19 22:27:42 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-19 22:27:55 [35mhttp[39m: [35mPOST /admin/usersData 401 85 - 77.052 ms[39m
+[35m[39m
+2021-05-19 22:29:05 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-19 22:29:05 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-19 22:30:10 [35mhttp[39m: [35mPOST /admin/usersData 401 85 - 82.280 ms[39m
+[35m[39m
+2021-05-19 22:30:56 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-19 22:30:56 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-19 22:31:15 [35mhttp[39m: [35mPOST /admin/usersData 401 85 - 80.847 ms[39m
+[35m[39m
+2021-05-19 22:32:09 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-19 22:32:09 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-19 22:32:19 [35mhttp[39m: [35mPOST /admin/usersData 403 97 - 94.041 ms[39m
+[35m[39m
+2021-05-21 21:50:14 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-21 21:50:14 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-21 21:50:49 [35mhttp[39m: [35mGET /login 404 75 - 20.992 ms[39m
+[35m[39m
+2021-05-21 21:50:54 [35mhttp[39m: [35mPOST /login 401 178 - 3.041 ms[39m
+[35m[39m
+2021-05-21 21:54:08 [35mhttp[39m: [35mPOST /login 200 359 - 402.580 ms[39m
+[35m[39m
+2021-05-21 21:58:20 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2021-05-22 21:08:48 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-22 21:08:48 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-22 21:10:46 [35mhttp[39m: [35mPOST /login 401 178 - 11.539 ms[39m
+[35m[39m
+2021-05-22 21:11:36 [35mhttp[39m: [35mPOST /login 200 359 - 233.430 ms[39m
+[35m[39m
+2021-05-22 21:13:18 [35mhttp[39m: [35mPOST /admin/usersData 401 82 - 4.916 ms[39m
+[35m[39m
+2021-05-22 21:15:44 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-22 21:15:44 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-22 21:16:36 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-22 21:16:36 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-22 21:19:35 [35mhttp[39m: [35mPOST /login 401 91 - 62.123 ms[39m
+[35m[39m
+2021-05-22 21:20:30 [35mhttp[39m: [35mPOST /login 200 359 - 160.396 ms[39m
+[35m[39m
+2021-05-22 21:22:15 [35mhttp[39m: [35mPOST /admin/usersData 403 97 - 107.639 ms[39m
+[35m[39m
+2021-05-22 21:24:30 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-22 21:24:30 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-22 21:24:55 [35mhttp[39m: [35mPOST /admin/usersData 404 75 - 91.947 ms[39m
+[35m[39m
+2021-05-22 21:25:05 [35mhttp[39m: [35mPOST /admin/usersData 404 75 - 14.476 ms[39m
+[35m[39m
+2021-05-22 21:25:32 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-22 21:25:32 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-22 21:27:50 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-22 21:27:50 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-22 21:29:35 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-22 21:29:35 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-22 21:31:06 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-22 21:31:06 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-22 21:31:16 [35mhttp[39m: [35mPOST /login 401 178 - 11.507 ms[39m
+[35m[39m
+2021-05-22 21:31:20 [35mhttp[39m: [35mPOST /admin 404 75 - 88.957 ms[39m
+[35m[39m
+2021-05-22 21:31:26 [35mhttp[39m: [35mPOST /admin/usersData 404 75 - 16.861 ms[39m
+[35m[39m
+2021-05-22 21:32:31 [35mhttp[39m: [35mGET /admin/usersData 200 431 - 36.369 ms[39m
+[35m[39m
+2021-05-22 21:33:57 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-22 21:33:57 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-22 21:37:47 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2021-05-27 20:06:26 [32minfo[39m: [32mListening on port 5000[39m
+2021-05-27 20:06:26 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-05-27 20:06:28 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2022-12-26 21:01:59 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:01:59 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:04:23 [35mhttp[39m: [35mGET /register 404 75 - 3.246 ms[39m
+[35m[39m
+2022-12-26 21:04:35 [35mhttp[39m: [35mGET /auth/register 404 75 - 0.796 ms[39m
+[35m[39m
+2022-12-26 21:04:54 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:04:54 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:05:14 [35mhttp[39m: [35mGET /auth/ 404 75 - 2.130 ms[39m
+[35m[39m
+2022-12-26 21:05:19 [35mhttp[39m: [35mGET /auth/register 404 75 - 0.543 ms[39m
+[35m[39m
+2022-12-26 21:05:24 [35mhttp[39m: [35mPOST /auth/register 401 184 - 0.570 ms[39m
+[35m[39m
+2022-12-26 21:06:14 [35mhttp[39m: [35mPOST /auth/register 200 85 - 314.087 ms[39m
+[35m[39m
+2022-12-26 21:06:16 [35mhttp[39m: [35mPOST /auth/register 401 79 - 3.818 ms[39m
+[35m[39m
+2022-12-26 21:06:44 [35mhttp[39m: [35mPOST /auth/register 200 85 - 1234.885 ms[39m
+[35m[39m
+2022-12-26 21:07:46 [35mhttp[39m: [35mPOST /user/read/63aa6143e621ddb4d4b2f7bf 200 364 - 4.891 ms[39m
+[35m[39m
+2022-12-26 21:10:18 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 65 - 7.798 ms[39m
+[35m[39m
+2022-12-26 21:10:28 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 65 - 2.379 ms[39m
+[35m[39m
+2022-12-26 21:10:44 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 65 - 1.989 ms[39m
+[35m[39m
+2022-12-26 21:10:46 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 65 - 1.412 ms[39m
+[35m[39m
+2022-12-26 21:10:57 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 401 168 - 0.363 ms[39m
+[35m[39m
+2022-12-26 21:11:11 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 401 168 - 0.432 ms[39m
+[35m[39m
+2022-12-26 21:11:59 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:11:59 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:12:00 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 401 168 - 4.723 ms[39m
+[35m[39m
+2022-12-26 21:12:44 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:12:44 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:15:08 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 13.818 ms[39m
+[35m[39m
+2022-12-26 21:16:46 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 401 168 - 0.672 ms[39m
+[35m[39m
+2022-12-26 21:16:53 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 3.511 ms[39m
+[35m[39m
+2022-12-26 21:17:50 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 2.999 ms[39m
+[35m[39m
+2022-12-26 21:18:05 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 1.458 ms[39m
+[35m[39m
+2022-12-26 21:18:06 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 1.315 ms[39m
+[35m[39m
+2022-12-26 21:18:09 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 1.338 ms[39m
+[35m[39m
+2022-12-26 21:18:10 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 2.175 ms[39m
+[35m[39m
+2022-12-26 21:18:15 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 401 168 - 0.417 ms[39m
+[35m[39m
+2022-12-26 21:18:21 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 1.513 ms[39m
+[35m[39m
+2022-12-26 21:35:39 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:35:39 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:36:20 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 13.771 ms[39m
+[35m[39m
+2022-12-26 21:36:59 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:36:59 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:37:09 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 15.618 ms[39m
+[35m[39m
+2022-12-26 21:37:21 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bd 200 78 - 3.916 ms[39m
+[35m[39m
+2022-12-26 21:37:22 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bd 200 78 - 2.887 ms[39m
+[35m[39m
+2022-12-26 21:37:49 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:37:49 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:37:50 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bd 401 85 - 14.601 ms[39m
+[35m[39m
+2022-12-26 21:38:12 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:38:12 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:38:20 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:38:20 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:38:22 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bd 401 85 - 15.170 ms[39m
+[35m[39m
+2022-12-26 21:38:26 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 2.455 ms[39m
+[35m[39m
+2022-12-26 21:38:37 [35mhttp[39m: [35mPOST /user/delete/63aa6143e621ddb4d4b2f7bf 200 78 - 2.194 ms[39m
+[35m[39m
+2022-12-26 21:38:39 [35mhttp[39m: [35mPOST /user/delete/63aa6143e621ddb4d4b2f7bf 401 85 - 1.618 ms[39m
+[35m[39m
+2022-12-26 21:39:17 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:39:17 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:44:25 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:44:25 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 22:07:18 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2022-12-26 22:22:30 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 22:22:30 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 22:22:38 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 22:22:38 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 22:22:50 [35mhttp[39m: [35mPOST /user/readbyname/test 200 101 - 31.957 ms[39m
+[35m[39m
+2022-12-26 22:23:21 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 22:23:21 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 22:23:22 [35mhttp[39m: [35mPOST /user/readbyname/test 200 101 - 13.858 ms[39m
+[35m[39m
+2022-12-26 22:23:45 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 22:23:45 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 22:23:45 [35mhttp[39m: [35mPOST /user/readbyname/test 401 87 - 12.741 ms[39m
+[35m[39m
+2022-12-26 22:23:48 [35mhttp[39m: [35mPOST /user/readbyname/test 401 87 - 1.727 ms[39m
+[35m[39m
+2022-12-26 22:23:56 [35mhttp[39m: [35mPOST /user/readbyname/malu%20de%20luigy 401 87 - 1.658 ms[39m
+[35m[39m
+2022-12-26 22:24:08 [35mhttp[39m: [35mPOST /user/readbyname/malu_de_luigy 401 87 - 2.523 ms[39m
+[35m[39m
+2022-12-26 22:24:22 [31merror[39m: [31mCast to ObjectId failed for value "test" at path "_id" for model "User"[39m
+2022-12-26 22:24:22 [35mhttp[39m: [35mPOST /user/readbyid/test 503 69 - 2.610 ms[39m
+[35m[39m
+2022-12-26 22:24:24 [31merror[39m: [31mCast to ObjectId failed for value "test" at path "_id" for model "User"[39m
+2022-12-26 22:24:24 [35mhttp[39m: [35mPOST /user/readbyid/test 503 69 - 1.094 ms[39m
+[35m[39m
+2022-12-26 22:24:25 [31merror[39m: [31mCast to ObjectId failed for value "test" at path "_id" for model "User"[39m
+2022-12-26 22:24:25 [35mhttp[39m: [35mPOST /user/readbyid/test 503 69 - 0.846 ms[39m
+[35m[39m
+2022-12-26 22:30:24 [35mhttp[39m: [35mGET /getuserbyname/undefined 404 75 - 0.697 ms[39m
+[35m[39m
