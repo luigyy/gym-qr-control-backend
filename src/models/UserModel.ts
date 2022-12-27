@@ -1,9 +1,7 @@
 import UserInterface from "../interfaces/UserInterface";
 import mongoose, { Schema } from "mongoose";
-import bcrypt from "bcrypt";
 import userRoleEnum from "../interfaces/userRole";
 
-const salt: number = 10;
 
 const UserSchema: Schema<UserInterface & mongoose.Document> = new Schema(
   {
@@ -39,42 +37,9 @@ const UserSchema: Schema<UserInterface & mongoose.Document> = new Schema(
       default: userRoleEnum.USER,
       required: true,
     },
-    password: {
-      type: String,
-      min: 5,
-      max: 40,
-    },
-  },
+ },
   { timestamps: true }
 );
-
-//hash password before saving
-UserSchema.pre("save", async function (next) {
-  if (!this.isModified("password")) return next();
-
-  const thisObj = this as UserInterface;
-  try {
-    thisObj.password = await bcrypt.hash(thisObj.password, salt);
-    return next();
-  } catch (err) {
-    return next(err);
-  }
-});
-
-//method has to be awaited when use
-UserSchema.methods.comparePasswords = function (
-  candidatePassword: string
-): Promise<boolean> {
-  return bcrypt.compare(candidatePassword, this.password);
-};
-
-//do not spit password out when retrieving user
-UserSchema.set("toJSON", {
-  transform: function (_: any, ret: any) {
-    delete ret["password"];
-    return ret;
-  },
-});
 
 export default mongoose.model<UserInterface & mongoose.Document>(
   "User",

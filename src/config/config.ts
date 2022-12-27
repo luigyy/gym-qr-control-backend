@@ -17,7 +17,7 @@ const MONGO_USERNAME = process.env.MONGO_USERNAME || 'superuser';
 const MONGO_PASSWORD = process.env.MONGO_PASSWORD || 'supersecretpassword1';
 const MONGO_HOST = process.env.MONGO_URL || `cluster0.menvh.mongodb.net/sample?w=majority`;
 
-const MONGO_LOCALHOST_DB_NAME = process.env.DB_NAME || 'authenticationAPI';
+const MONGO_LOCALHOST_DB_NAME = process.env.DB_NAME || 'gymControlAPI';
 const MONGO_LOCALHOST_PORT = process.env.DB_PORT || '27017';
 const MONGO_LOCALHOST_URL = `mongodb://localhost:${MONGO_LOCALHOST_PORT}/${MONGO_LOCALHOST_DB_NAME}`;
 

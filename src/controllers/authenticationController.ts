@@ -23,11 +23,11 @@ export const postRegister: ReqHandler = async (req, res, next) => {
   //POST /register
 
   //get data from request
-  const { name, lastName, email, password }: UserInterface = req.body;
+  const { name, lastName, email}: UserInterface = req.body;
 
   //check if all the data is provided
-  if (!(name && lastName && email && password)) {
-    const fieldsRequired = ["name", "lastName", "email", "password"];
+  if (!(name && lastName && email)) {
+    const fieldsRequired = ["name", "lastName", "email"];
     return next(new HttpError(MISSING_DATA, fieldsRequired));
   }
 
@@ -47,7 +47,6 @@ export const postRegister: ReqHandler = async (req, res, next) => {
     name,
     lastName,
     email,
-    password,
   });
 
   //save user
