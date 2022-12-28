@@ -2,7 +2,6 @@ import UserInterface from "../interfaces/UserInterface";
 import mongoose, { Schema } from "mongoose";
 import userRoleEnum from "../interfaces/userRole";
 
-
 const UserSchema: Schema<UserInterface & mongoose.Document> = new Schema(
   {
     name: {
@@ -31,13 +30,19 @@ const UserSchema: Schema<UserInterface & mongoose.Document> = new Schema(
         "Please fill a valid email address",
       ],
     },
+    membershipRenewalDates: {
+      type: [Date],
+    },
+    membershipLastRenewal: {
+      type: Date,
+    },
     role: {
       type: String,
       enum: Object.values(userRoleEnum),
       default: userRoleEnum.USER,
       required: true,
     },
- },
+  },
   { timestamps: true }
 );
 

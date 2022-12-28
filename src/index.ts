@@ -1,6 +1,7 @@
 //TODO: add usage to the response
 import express from "express";
 
+import membershipRoutes from "./routes/membershipRoutes";
 import userCrudRoutes from "./routes/UserCrudRoutes";
 import authenticationRoutes from "./routes/AuthenticationRoutes";
 import adminRoutes from "./routes/AdminRoutes";
@@ -31,6 +32,7 @@ app.use(cors());
 //routes middleware
 app.use("/user", userCrudRoutes);
 app.use("/auth", authenticationRoutes);
+app.use("/membership", membershipRoutes);
 app.use("/admin", checkToken, checkRole(["ADMIN"]), adminRoutes);
 
 //404 and errorhandler
