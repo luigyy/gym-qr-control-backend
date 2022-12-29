@@ -30,11 +30,9 @@ const UserSchema: Schema<UserInterface & mongoose.Document> = new Schema(
         "Please fill a valid email address",
       ],
     },
-    membershipRenewalDates: {
-      type: [Date],
-    },
-    membershipLastRenewal: {
+    expiresIn: {
       type: Date,
+      default: undefined,
     },
     role: {
       type: String,

@@ -7,8 +7,7 @@ export default interface UserInterface {
   lastName: string;
   email: string;
   password: string;
-  membershipRenewalDates: Array<Date>; //everydate the customer has ever renew membership
-  membershipLastRenewal: Date; //date of last renewal
+  expiresIn: Date; //date of last renewal
   role: userRoleEnum;
   comparePasswords: (candidatePassword: string) => Promise<boolean>;
 }
