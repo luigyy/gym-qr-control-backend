@@ -12,6 +12,7 @@ const codeFor = {
   UPDATE_SUCCESS: { code: 200, message: "Successfully updated" },
   DELETE_SUCCESS: { code: 200, message: "Successfully deleted" },
   SERVER_ERROR: { code: 503, message: "Server error" },
+  MEMBERSHIP_EXPIRED: { code: 401, message: "Membership is not active" },
   MISSING_TOKEN: {
     code: 401,
     message: "Authentication token not found on auth header",
