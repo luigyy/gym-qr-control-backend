@@ -2,6 +2,8 @@
 import nodeoutlook from "nodejs-nodemailer-outlook";
 
 //
+//
+// default account to send email
 const user = "gymcontrol123@outlook.com";
 const pass = "cartago23";
 //

@@ -1648,3 +1648,11 @@
 [35m[39m
 2022-12-30 21:56:49 [35mhttp[39m: [35mPOST /user/sendqr 200 65 - 10.420 ms[39m
 [35m[39m
+2022-12-30 22:37:54 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-30 22:37:54 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-30 22:38:36 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-30 22:38:36 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-30 22:38:43 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-30 22:38:43 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-30 22:39:01 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-30 22:39:01 [32minfo[39m: [32mSuccessfully connected to database[39m
