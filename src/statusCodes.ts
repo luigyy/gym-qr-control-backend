@@ -17,6 +17,7 @@ const codeFor = {
     code: 401,
     message: "Authentication token not found on auth header",
   },
+  EMAIL_NOT_SENT: { code: 500, message: "Error while sending email" },
   INVALID_TOKEN: { code: 401, message: "Invalid authentication token" },
   UNAUTHORIZED: { code: 403, message: "Service not available for your role" }, //user does not have required role
 };

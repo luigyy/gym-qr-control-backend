@@ -30,6 +30,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.7",
     "morgan": "^1.10.0",
+    "nodejs-nodemailer-outlook": "^1.2.4",
     "winston": "^3.3.3"
   },
   "devDependencies": {
