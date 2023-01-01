@@ -14,6 +14,6 @@ router.post("/readbyid/:id", readUser);
 router.post("/readbyname/:name", readUserByName);
 router.post("/update/:id", updateUser);
 router.post("/delete/:id", deleteUser);
-router.post("/sendqr/", sendQr);
+router.post("/sendqr/:id", sendQr);
 
 export default router;

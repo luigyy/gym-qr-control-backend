@@ -6,14 +6,13 @@ import codes from "../statusCodes";
 import HttpError from "../exceptions/HttpException";
 import UserSchema from "../models/UserModel";
 import logger from "../config/logging";
-import sendQrEmail from "../functions/sendEmail";
-import { isEmail } from "../functions/regex";
+import sendQrEmail from "../functions/sendQrEmail";
+import { isId } from "../functions/regex";
 
 const {
   MISSING_DATA,
   EMAIL_NOT_SENT,
   INVALID_NAME,
-  INVALID_EMAIL,
   DELETE_SUCCESS,
   UPDATE_SUCCESS,
   SUCCESS,
@@ -145,29 +144,31 @@ export const deleteUser: ReqHandler = async (req, res, next) => {
 
 export const sendQr: ReqHandler = async (req, res, next) => {
   //get
-  const { email } = req.body;
+  const id = req.params.id;
   //check email
-  if (!email) {
-    const fieldsRequired = ["email"];
+  if (!id) {
+    const fieldsRequired = ["id"];
     return next(new HttpError(MISSING_DATA, fieldsRequired));
   }
 
-  //check that email is a valid email
-  if (!isEmail(email)) {
-    return next(new HttpError(INVALID_EMAIL));
+  //check that id is a valid id
+  if (!isId(id)) {
+    return next(new HttpError(INVALID_ID));
   }
 
   //check if theres an user with that email in db
+  var user;
   try {
-    const user = await UserSchema.findOne({ email });
+    user = await UserSchema.findOne({ _id: id }, { email: 1 });
     if (!user) {
-      return next(new HttpError(INVALID_EMAIL));
+      return next(new HttpError(INVALID_ID));
     }
   } catch (err) {
     logger.error(err.message);
     return next(new HttpError(SERVER_ERROR));
   }
-  const result = sendQrEmail(email);
+
+  const result = sendQrEmail(user.email, id);
 
   //check if successfully sent
   if (!result) return next(new HttpError(EMAIL_NOT_SENT));

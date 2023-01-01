@@ -1,3 +1,5 @@
+import mongoose from "mongoose";
+
 /**
  * verifie si la chaine renseigné est un email
  * check if email is valide
@@ -9,4 +11,8 @@ export const isEmail = (emailAdress: string) => {
 
   if (emailAdress.match(regex)) return true;
   else return false;
+};
+
+export const isId = (id: string): boolean => {
+  return mongoose.isValidObjectId(id);
 };
