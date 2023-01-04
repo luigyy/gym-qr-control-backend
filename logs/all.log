@@ -1973,3 +1973,9 @@
 2023-01-03 21:21:52 [33mwarn[39m: [33mMongoose default connection disconnected[39m
 2023-01-03 21:22:07 [32minfo[39m: [32mListening on port 5000[39m
 2023-01-03 21:22:12 [32minfo[39m: [32mSuccessfully connected to database[39m
+2023-01-03 22:57:54 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 22:57:56 [32minfo[39m: [32mSuccessfully connected to database[39m
+2023-01-03 23:50:15 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-04 14:42:39 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-04 14:42:41 [32minfo[39m: [32mSuccessfully connected to database[39m
+2023-01-04 14:42:44 [33mwarn[39m: [33mMongoose default connection disconnected[39m
