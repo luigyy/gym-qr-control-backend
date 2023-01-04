@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 import { Algorithm } from "jsonwebtoken";
 
-dotenv.config({ path: `${__dirname}/../.env` });
+dotenv.config({ path: `${__dirname}/../../.env` });
 
 const MONGO_OPTIONS = {
   useUnifiedTopology: true,

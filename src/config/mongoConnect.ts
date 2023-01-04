@@ -2,7 +2,7 @@ import logger from "./logging";
 import config from "./config";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-dotenv.config({ path: `${__dirname}/../.env` });
+dotenv.config({ path: `${__dirname}/../../.env` });
 
 const mongoConnect = () => {
   mongoose
