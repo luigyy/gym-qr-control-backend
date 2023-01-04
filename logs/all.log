@@ -1774,3 +1774,189 @@
 [35m[39m
 2022-12-31 18:10:12 [35mhttp[39m: [35mPOST /user/sendqr/63b0c9c170a3ff88758e18bf 200 65 - 6.296 ms[39m
 [35m[39m
+2022-12-31 18:11:52 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-31 18:11:52 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-31 18:14:53 [35mhttp[39m: [35mPOST /user/sendqr/63b0c9c170a3ff88758e18bf 200 65 - 47.847 ms[39m
+[35m[39m
+2022-12-31 20:39:56 [35mhttp[39m: [35mPOST /user/readbyname/luigy 200 2019 - 23.596 ms[39m
+[35m[39m
+2022-12-31 20:39:56 [35mhttp[39m: [35mPOST /user/readbyname/luigy 200 2019 - 12.360 ms[39m
+[35m[39m
+2022-12-31 20:40:01 [35mhttp[39m: [35mPOST /user/readbyid/63b0c9c170a3ff88758e18bf 200 376 - 7.509 ms[39m
+[35m[39m
+2022-12-31 20:40:01 [35mhttp[39m: [35mPOST /user/readbyid/63b0c9c170a3ff88758e18bf 200 376 - 5.543 ms[39m
+[35m[39m
+2022-12-31 20:40:18 [35mhttp[39m: [35mPOST /user/readbyname/luigy 200 2019 - 10.321 ms[39m
+[35m[39m
+2022-12-31 20:40:33 [35mhttp[39m: [35mOPTIONS /auth/register 204 0 - 2.075 ms[39m
+[35m[39m
+2022-12-31 20:40:33 [35mhttp[39m: [35mPOST /auth/register 401 79 - 8.838 ms[39m
+[35m[39m
+2022-12-31 20:40:44 [35mhttp[39m: [35mPOST /user/readbyname/luigy 200 2019 - 11.599 ms[39m
+[35m[39m
+2022-12-31 20:40:47 [35mhttp[39m: [35mPOST /user/readbyid/63b0c9c170a3ff88758e18bf 200 376 - 8.669 ms[39m
+[35m[39m
+2022-12-31 20:40:47 [35mhttp[39m: [35mPOST /user/readbyid/63b0c9c170a3ff88758e18bf 200 376 - 6.057 ms[39m
+[35m[39m
+2022-12-31 20:40:48 [35mhttp[39m: [35mPOST /user/sendqr/63b0c9c170a3ff88758e18bf 200 65 - 46.433 ms[39m
+[35m[39m
+2023-01-03 17:02:15 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 17:02:15 [32minfo[39m: [32mSuccessfully connected to database[39m
+2023-01-03 17:05:03 [35mhttp[39m: [35mPOST /user/readbyname/luigy 200 2019 - 235.286 ms[39m
+[35m[39m
+2023-01-03 17:05:06 [35mhttp[39m: [35mPOST /user/readbyid/63ae545275dc6ca976015776 200 412 - 101.285 ms[39m
+[35m[39m
+2023-01-03 17:05:06 [35mhttp[39m: [35mPOST /user/readbyid/63ae545275dc6ca976015776 200 412 - 97.003 ms[39m
+[35m[39m
+2023-01-03 17:05:33 [35mhttp[39m: [35mPOST /user/sendqr/63ae545275dc6ca976015776 200 65 - 54.451 ms[39m
+[35m[39m
+2023-01-03 17:08:15 [35mhttp[39m: [35mPOST /user/readbyname/luigy 200 2019 - 21.827 ms[39m
+[35m[39m
+2023-01-03 17:08:16 [35mhttp[39m: [35mPOST /user/readbyid/63ae545275dc6ca976015776 200 412 - 7.656 ms[39m
+[35m[39m
+2023-01-03 17:08:16 [35mhttp[39m: [35mPOST /user/readbyid/63ae545275dc6ca976015776 200 412 - 7.036 ms[39m
+[35m[39m
+2023-01-03 17:09:03 [35mhttp[39m: [35mPOST /user/delete/63ae545275dc6ca976015776 200 78 - 18.042 ms[39m
+[35m[39m
+2023-01-03 20:10:48 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-03 20:10:48 [33mwarn[39m: [33mMongoose default connection disconnected through app termination[39m
+2023-01-03 20:10:55 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:10:55 [32minfo[39m: [32mSuccessfully connected to database[39m
+2023-01-03 20:12:06 [35mhttp[39m: [35mPOST /user/readbyname/luigy 200 1678 - 40.982 ms[39m
+[35m[39m
+2023-01-03 20:12:07 [35mhttp[39m: [35mPOST /user/readbyid/63ae545475dc6ca976015777 200 413 - 12.880 ms[39m
+[35m[39m
+2023-01-03 20:12:07 [35mhttp[39m: [35mPOST /user/readbyid/63ae545475dc6ca976015777 200 413 - 6.966 ms[39m
+[35m[39m
+2023-01-03 20:12:16 [35mhttp[39m: [35mPOST /user/readbyname/luigy 200 1678 - 15.773 ms[39m
+[35m[39m
+2023-01-03 20:12:38 [35mhttp[39m: [35mPOST /user/readbyname/luigy 401 87 - 9.613 ms[39m
+[35m[39m
+2023-01-03 20:12:39 [35mhttp[39m: [35mPOST /user/readbyname/luigy 401 87 - 7.272 ms[39m
+[35m[39m
+2023-01-03 20:12:39 [35mhttp[39m: [35mPOST /user/readbyname/luigy 401 87 - 5.897 ms[39m
+[35m[39m
+2023-01-03 20:12:39 [35mhttp[39m: [35mPOST /user/readbyname/luigy 401 87 - 5.139 ms[39m
+[35m[39m
+2023-01-03 20:12:44 [35mhttp[39m: [35mPOST /user/readbyname/luigy 401 87 - 5.936 ms[39m
+[35m[39m
+2023-01-03 20:12:46 [35mhttp[39m: [35mPOST /user/readbyname/luigy 401 87 - 5.554 ms[39m
+[35m[39m
+2023-01-03 20:12:46 [35mhttp[39m: [35mPOST /user/readbyname/luigy 401 87 - 8.943 ms[39m
+[35m[39m
+2023-01-03 20:12:46 [35mhttp[39m: [35mPOST /user/readbyname/luigy 401 87 - 5.622 ms[39m
+[35m[39m
+2023-01-03 20:12:47 [35mhttp[39m: [35mPOST /user/readbyname/luigy 401 87 - 4.901 ms[39m
+[35m[39m
+2023-01-03 20:12:47 [35mhttp[39m: [35mPOST /user/readbyname/luigy 401 87 - 4.934 ms[39m
+[35m[39m
+2023-01-03 20:12:48 [35mhttp[39m: [35mPOST /user/readbyname/luigy 401 87 - 5.585 ms[39m
+[35m[39m
+2023-01-03 20:12:48 [35mhttp[39m: [35mPOST /user/readbyname/luigy 401 87 - 4.841 ms[39m
+[35m[39m
+2023-01-03 20:12:48 [35mhttp[39m: [35mPOST /user/readbyname/luigy 401 87 - 2.381 ms[39m
+[35m[39m
+2023-01-03 20:12:48 [35mhttp[39m: [35mPOST /user/readbyname/luigy 401 87 - 2.337 ms[39m
+[35m[39m
+2023-01-03 20:12:51 [35mhttp[39m: [35mPOST /user/readbyname/luigy 401 87 - 1.268 ms[39m
+[35m[39m
+2023-01-03 20:12:52 [35mhttp[39m: [35mPOST /user/readbyname/luigy 401 87 - 1.539 ms[39m
+[35m[39m
+2023-01-03 20:12:53 [35mhttp[39m: [35mPOST /user/readbyname/luigy 401 87 - 2.984 ms[39m
+[35m[39m
+2023-01-03 20:14:41 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:14:42 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-03 20:14:42 [31merror[39m: [31mError when connecting to database[39m
+2023-01-03 20:14:42 [33mwarn[39m: [33mMongoose default connection error: MongoError: bad auth : authentication failed[39m
+2023-01-03 20:16:15 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:16:17 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-03 20:16:17 [31merror[39m: [31mError when connecting to database[39m
+2023-01-03 20:16:17 [33mwarn[39m: [33mMongoose default connection error: MongoError: bad auth : authentication failed[39m
+2023-01-03 20:16:47 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:16:48 [32minfo[39m: [32mSuccessfully connected to database[39m
+2023-01-03 20:17:31 [35mhttp[39m: [35mOPTIONS /auth/register 204 0 - 5.148 ms[39m
+[35m[39m
+2023-01-03 20:17:33 [35mhttp[39m: [35mPOST /auth/register 200 85 - 1425.820 ms[39m
+[35m[39m
+2023-01-03 20:19:09 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:19:11 [32minfo[39m: [32mSuccessfully connected to database[39m
+2023-01-03 20:19:25 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:19:26 [32minfo[39m: [32mSuccessfully connected to database[39m
+2023-01-03 20:20:05 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:20:13 [32minfo[39m: [32mSuccessfully connected to database[39m
+2023-01-03 20:20:28 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:20:30 [32minfo[39m: [32mSuccessfully connected to database[39m
+2023-01-03 20:21:15 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:21:17 [32minfo[39m: [32mSuccessfully connected to database[39m
+2023-01-03 20:22:48 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:22:48 [32minfo[39m: [32mSuccessfully connected to database[39m
+2023-01-03 20:23:42 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:23:43 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-03 20:23:43 [31merror[39m: [31mError when connecting to database[39m
+2023-01-03 20:23:43 [33mwarn[39m: [33mMongoose default connection error: MongoError: bad auth : authentication failed[39m
+2023-01-03 20:24:10 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:24:11 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-03 20:24:11 [31merror[39m: [31mError when connecting to database[39m
+2023-01-03 20:24:11 [33mwarn[39m: [33mMongoose default connection error: MongoError: bad auth : authentication failed[39m
+2023-01-03 20:24:55 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:24:57 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-03 20:24:57 [31merror[39m: [31mError when connecting to database[39m
+2023-01-03 20:24:57 [33mwarn[39m: [33mMongoose default connection error: MongoError: bad auth : authentication failed[39m
+2023-01-03 20:25:45 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:25:46 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-03 20:25:46 [31merror[39m: [31mError when connecting to database[39m
+2023-01-03 20:25:46 [33mwarn[39m: [33mMongoose default connection error: MongoError: bad auth : authentication failed[39m
+2023-01-03 20:30:05 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:30:07 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-03 20:30:07 [31merror[39m: [31mError when connecting to database[39m
+2023-01-03 20:30:07 [33mwarn[39m: [33mMongoose default connection error: MongoError: bad auth : authentication failed[39m
+2023-01-03 20:34:29 [33mwarn[39m: [33mMongoose default connection disconnected through app termination[39m
+2023-01-03 20:34:35 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:34:37 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-03 20:34:37 [31merror[39m: [31mError when connecting to database[39m
+2023-01-03 20:34:37 [33mwarn[39m: [33mMongoose default connection error: MongoError: bad auth : authentication failed[39m
+2023-01-03 20:35:02 [33mwarn[39m: [33mMongoose default connection disconnected through app termination[39m
+2023-01-03 20:35:09 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:35:10 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-03 20:35:10 [31merror[39m: [31mError when connecting to database[39m
+2023-01-03 20:35:10 [33mwarn[39m: [33mMongoose default connection error: MongoError: bad auth : authentication failed[39m
+2023-01-03 20:35:35 [33mwarn[39m: [33mMongoose default connection disconnected through app termination[39m
+2023-01-03 20:35:41 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:35:43 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-03 20:35:43 [31merror[39m: [31mError when connecting to database[39m
+2023-01-03 20:35:43 [33mwarn[39m: [33mMongoose default connection error: MongoError: bad auth : authentication failed[39m
+2023-01-03 20:36:23 [33mwarn[39m: [33mMongoose default connection disconnected through app termination[39m
+2023-01-03 20:36:34 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:36:35 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-03 20:36:35 [31merror[39m: [31mError when connecting to database[39m
+2023-01-03 20:36:35 [33mwarn[39m: [33mMongoose default connection error: MongoError: bad auth : authentication failed[39m
+2023-01-03 20:37:00 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:37:02 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-03 20:37:02 [31merror[39m: [31mError when connecting to database[39m
+2023-01-03 20:37:02 [33mwarn[39m: [33mMongoose default connection error: MongoError: bad auth : authentication failed[39m
+2023-01-03 20:37:29 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:37:30 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-03 20:37:30 [31merror[39m: [31mError when connecting to database[39m
+2023-01-03 20:37:30 [33mwarn[39m: [33mMongoose default connection error: MongoError: bad auth : authentication failed[39m
+2023-01-03 20:38:13 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:38:15 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-03 20:38:15 [31merror[39m: [31mError when connecting to database[39m
+2023-01-03 20:38:15 [33mwarn[39m: [33mMongoose default connection error: MongoError: bad auth : authentication failed[39m
+2023-01-03 20:39:54 [33mwarn[39m: [33mMongoose default connection disconnected through app termination[39m
+2023-01-03 20:40:03 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:40:04 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-03 20:40:04 [31merror[39m: [31mError when connecting to database[39m
+2023-01-03 20:40:04 [33mwarn[39m: [33mMongoose default connection error: MongoError: bad auth : authentication failed[39m
+2023-01-03 20:42:17 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:42:18 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-03 20:42:18 [31merror[39m: [31mError when connecting to database[39m
+2023-01-03 20:42:18 [33mwarn[39m: [33mMongoose default connection error: MongoError: bad auth : Authentication failed.[39m
+2023-01-03 20:42:29 [33mwarn[39m: [33mMongoose default connection disconnected through app termination[39m
+2023-01-03 20:42:35 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:42:37 [32minfo[39m: [32mSuccessfully connected to database[39m
+2023-01-03 20:43:29 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:43:31 [32minfo[39m: [32mSuccessfully connected to database[39m
+2023-01-03 20:43:57 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:43:59 [32minfo[39m: [32mSuccessfully connected to database[39m
+2023-01-03 20:44:31 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-03 20:44:32 [32minfo[39m: [32mSuccessfully connected to database[39m
