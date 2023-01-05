@@ -38,7 +38,7 @@ const generateQrImage = (payload: string): boolean => {
  * @id id  user id to generate qr code
  * @returns true if successfully sent, false otherwise
  */
-const sendQrEmail = (To: string, id: string) => {
+const sendQrEmail = async (To: string, id: string) => {
   const payload = "id : " + id;
 
   //create qr image file
@@ -48,7 +48,7 @@ const sendQrEmail = (To: string, id: string) => {
     return false;
   }
 
-  nodeoutlook.sendEmail({
+  await nodeoutlook.sendEmail({
     auth: {
       user: user,
       pass: pass,

@@ -170,7 +170,7 @@ export const sendQr: ReqHandler = async (req, res, next) => {
   }
 
   try {
-    sendQrEmail(user.email, id);
+    await sendQrEmail(user.email, id);
   } catch (err) {
     return next(new HttpError(EMAIL_NOT_SENT));
   }

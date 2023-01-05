@@ -171,7 +171,7 @@ const sendQr = (req, res, next) => __awaiter(void 0, void 0, void 0, function* (
         return next(new HttpException_1.default(SERVER_ERROR));
     }
     try {
-        sendQrEmail_1.default(user.email, id);
+        yield sendQrEmail_1.default(user.email, id);
     }
     catch (err) {
         return next(new HttpException_1.default(EMAIL_NOT_SENT));
