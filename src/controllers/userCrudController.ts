@@ -7,6 +7,7 @@ import HttpError from "../exceptions/HttpException";
 import UserSchema from "../models/UserModel";
 import logger from "../config/logging";
 import sendQrEmail from "../functions/sendQrEmail";
+// import { sendQRtest } from "../functions/sendQrEmail";
 import { isId } from "../functions/regex";
 
 const {
@@ -168,11 +169,13 @@ export const sendQr: ReqHandler = async (req, res, next) => {
     return next(new HttpError(SERVER_ERROR));
   }
 
-  const result = await sendQrEmail(user.email, id);
+  try {
+    sendQrEmail(user.email, id);
+  } catch (err) {
+    return next(new HttpError(EMAIL_NOT_SENT));
+  }
 
   //check if successfully sent
-  if (result === false) return next(new HttpError(EMAIL_NOT_SENT));
-
   const response: ResponseInterface = {
     statusCode: SUCCESS.code,
     message: SUCCESS.message,

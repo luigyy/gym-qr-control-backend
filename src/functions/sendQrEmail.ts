@@ -38,8 +38,7 @@ const generateQrImage = (payload: string): boolean => {
  * @id id  user id to generate qr code
  * @returns true if successfully sent, false otherwise
  */
-const sendQrEmail = async (To: string, id: string) => {
-  var returnValue: boolean = false;
+const sendQrEmail = (To: string, id: string) => {
   const payload = "id : " + id;
 
   //create qr image file
@@ -49,39 +48,52 @@ const sendQrEmail = async (To: string, id: string) => {
     return false;
   }
 
-  try {
-    await nodeoutlook.sendEmail({
-      auth: {
-        user: user,
-        pass: pass,
+  nodeoutlook.sendEmail({
+    auth: {
+      user: user,
+      pass: pass,
+    },
+    from: user,
+    to: To,
+    subject: "QR code for gym access",
+    html: "<b>In the attachments, you can find an image with your QR code for gym access, either download it or screenshot and present it at the gym entrance</b>",
+    text: "This is text version!",
+    replyTo: "valverdejareth@gmail.com",
+    attachments: [
+      {
+        filename: "gymQRcode.png",
+        path: DEFAULT_IMAGE_PATH + DEFAULT_IMAGE_NAME,
       },
-      from: user,
-      to: To,
-      subject: "QR code for gym access",
-      html: "<b>In the attachments, you can find an image with your QR code for gym access, either download it or screenshot and present it at the gym entrance</b>",
-      text: "This is text version!",
-      replyTo: "valverdejareth@gmail.com",
-      attachments: [
-        {
-          filename: "gymQRcode.png",
-          path: DEFAULT_IMAGE_PATH + DEFAULT_IMAGE_NAME,
-        },
-      ],
-      onSuccess: () => {
-        return (returnValue = true);
-      },
-      onError: (e: any) => {
-        console.log(e);
-        return (returnValue = false);
-      },
-    });
-  } catch (err) {
-    return false;
-  }
+    ],
+    onSuccess: () => {},
+    onError: (e: any) => {
+      console.log(e);
+      throw e;
+    },
+  });
   //delete file
   //fs.unlinkSync(DEFAULT_IMAGE_PATH + DEFAULT_IMAGE_NAME);
 
-  return returnValue;
+  return true;
 };
+
+export function sendQRtest() {
+  const nodeoutlook = require("nodejs-nodemailer-outlook");
+
+  nodeoutlook.sendEmail({
+    auth: {
+      user: "gymcontrol123@outlook.com",
+      pass: "cartago23",
+    },
+    from: "gymcontrol123@outlook.com",
+    to: "valverdejareth@gmail.com",
+    subject: "Hey you, awesome!",
+    html: "<b>This is bold text</b>",
+    text: "This is text version!",
+    replyTo: "valverdejareth@gmail.com",
+    onSuccess: (i: any) => console.log(i),
+    onError: (e: any) => console.log(e),
+  });
+}
 
 export default sendQrEmail;

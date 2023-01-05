@@ -19,6 +19,7 @@ const HttpException_1 = __importDefault(require("../exceptions/HttpException"));
 const UserModel_1 = __importDefault(require("../models/UserModel"));
 const logging_1 = __importDefault(require("../config/logging"));
 const sendQrEmail_1 = __importDefault(require("../functions/sendQrEmail"));
+// import { sendQRtest } from "../functions/sendQrEmail";
 const regex_1 = require("../functions/regex");
 const { MISSING_DATA, EMAIL_NOT_SENT, INVALID_NAME, DELETE_SUCCESS, UPDATE_SUCCESS, SUCCESS, SERVER_ERROR, INVALID_ID, } = statusCodes_1.default;
 //
@@ -169,10 +170,13 @@ const sendQr = (req, res, next) => __awaiter(void 0, void 0, void 0, function* (
         logging_1.default.error(err.message);
         return next(new HttpException_1.default(SERVER_ERROR));
     }
-    const result = yield sendQrEmail_1.default(user.email, id);
-    //check if successfully sent
-    if (result === false)
+    try {
+        sendQrEmail_1.default(user.email, id);
+    }
+    catch (err) {
         return next(new HttpException_1.default(EMAIL_NOT_SENT));
+    }
+    //check if successfully sent
     const response = {
         statusCode: SUCCESS.code,
         message: SUCCESS.message,
