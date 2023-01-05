@@ -169,9 +169,9 @@ const sendQr = (req, res, next) => __awaiter(void 0, void 0, void 0, function* (
         logging_1.default.error(err.message);
         return next(new HttpException_1.default(SERVER_ERROR));
     }
-    const result = sendQrEmail_1.default(user.email, id);
+    const result = yield sendQrEmail_1.default(user.email, id);
     //check if successfully sent
-    if (!result)
+    if (result === false)
         return next(new HttpException_1.default(EMAIL_NOT_SENT));
     const response = {
         statusCode: SUCCESS.code,

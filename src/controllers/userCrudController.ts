@@ -168,10 +168,10 @@ export const sendQr: ReqHandler = async (req, res, next) => {
     return next(new HttpError(SERVER_ERROR));
   }
 
-  const result = sendQrEmail(user.email, id);
+  const result = await sendQrEmail(user.email, id);
 
   //check if successfully sent
-  if (!result) return next(new HttpError(EMAIL_NOT_SENT));
+  if (result === false) return next(new HttpError(EMAIL_NOT_SENT));
 
   const response: ResponseInterface = {
     statusCode: SUCCESS.code,
